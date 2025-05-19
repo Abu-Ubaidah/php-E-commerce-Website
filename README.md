@@ -1,4 +1,4 @@
-# php-E-commerce-Website
+# PHP-Online Book Store
 Web Engineering Technology Assignment 
 
 Online Book Store made In php 
