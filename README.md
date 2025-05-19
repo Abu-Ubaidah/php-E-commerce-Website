@@ -1,5 +1,6 @@
 # php-E-commerce-Website
-Web Engineering Technology Assignment \n
+Web Engineering Technology Assignment 
+
 E-Commerce Website made In php with mysql database
 
 ## Name: Abu-Ubaidah
