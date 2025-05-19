@@ -4,6 +4,7 @@ include 'includes/books.php';
 
 
 // Add to cart
+// Add to cart
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['book_id'])) {
     $book_id = $_POST['book_id'];
 
@@ -11,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['book_id'])) {
         $_SESSION['cart'] = [];
     }
 
-    if (isset($_SESSION['cart'][$book_id])) {
+    if (isset($_SESSION['cart'][$book_id]) && is_numeric($_SESSION['cart'][$book_id])) {
         $_SESSION['cart'][$book_id]++;
     } else {
         $_SESSION['cart'][$book_id] = 1;
